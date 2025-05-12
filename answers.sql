@@ -1,4 +1,6 @@
 -- Question 1 Achieving 1NF (First Normal Form)
+
+-- Create ProductDetail table
 CREATE TABLE ProductDetail(
     OrderID INT,
     CustomerName VARCHAR(100),
@@ -15,6 +17,7 @@ INSERT INTO ProductDetail(OrderID, CustomerName, Product) VALUES
 
 
 -- Question 2 Achieving 2NF (Second Normal Form) 
+
 -- Create Orders table
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
